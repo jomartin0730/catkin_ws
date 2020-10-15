@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node" output="screen"/>
+  <node pkg="moving_turtle" type="turtle_pub_node" name="turtle_pub_node" output="screen"/>
+</launch>
+
